@@ -34,13 +34,11 @@ public class SwimmingCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout() {
-		
 		return "Do some fast lengths";
 	}
 
 	@Override
 	public String getDailyFortune() {
-		
 		return fortuneService.getFortune();
 	}
 }
