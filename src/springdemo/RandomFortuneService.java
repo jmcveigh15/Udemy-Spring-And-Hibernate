@@ -3,14 +3,12 @@ package springdemo;
 import java.util.Random;
 
 public class RandomFortuneService implements FortuneService {
-	
+	private Random random = new Random();
 	private String[] fortunes = {
 			"Work harder",
 			"Start earlier",
 			"Be luckier"
 	};
-	
-	private Random random = new Random();
 
 	@Override
 	public String getFortune() {
@@ -19,5 +17,4 @@ public class RandomFortuneService implements FortuneService {
 		
 		return theFortune;
 	}
-
 }
