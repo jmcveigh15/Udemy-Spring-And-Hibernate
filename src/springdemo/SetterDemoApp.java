@@ -21,5 +21,4 @@ public class SetterDemoApp {
 		// close the context
 		context.close();
 	}
-
 }
